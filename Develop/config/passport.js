@@ -1,4 +1,5 @@
 var passport = require("passport");
+//lets authentication of username and password in your Node.js applications
 var LocalStrategy = require("passport-local").Strategy;
 
 var db = require("../models");

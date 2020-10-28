@@ -20,6 +20,7 @@ var db = require("./models");
 // Creating express app and configuring middleware needed for authentication
 var app = express();
 // allows objects to be encoded into the url 
+//Middleware
 app.use(express.urlencoded({ extended: true }));
 // parses incoming requests with JSON
 app.use(express.json());
